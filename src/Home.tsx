@@ -100,8 +100,10 @@ const Other = styled.div`
 const ImageWrap = styled.div`
   aspect-ratio: 1 / 1;
   width: 100%;
-  background-image: url(https://images.pexels.com/photos/2832432/pexels-photo-2832432.png);
+  background-image: url(https://hobrrukkxvouhtuegcxca4buhdrrk4e24umo6irul4dyyopfby4q.arweave.net/O4MY0Uq9XUPOhDCuIHA0OOMVcJrlGO8iNF8HjDnlDjk?ext=png);
   border-radius: 16px;
+  background-position: center;
+  background-size: contain;
 `
 const Image = styled.div`
   height: 100%
@@ -424,8 +426,8 @@ export interface HomeProps {
 const candyMachinOps = {
   allowLists: [
     {
-      list: require("../cmv3-demo-initialization/allowlist.json"),
-      groupLabel: "waoed",
+      list: require("./constants/whitelist.json"),
+      groupLabel: "WL",
     },
   ],
 };
@@ -647,7 +649,7 @@ const Home = (props: HomeProps) => {
           <Container>
             <Column>
               <Content>
-                <CollectionName>Collection Name</CollectionName>
+                <CollectionName>Savages Unleashed</CollectionName>
                 <InfoRow>
                   {guardStates.isStarted && wallet.publicKey && (
                     <InfoBox>
@@ -655,12 +657,12 @@ const Home = (props: HomeProps) => {
                       <p>{candyMachineV3.items.available}{" "}</p>
                     </InfoBox>)}
                   <IconRow>
-                    <a href="#" target="_blank" rel="noopener noreferrer"><Globe></Globe></a>
-                    <a href="#" target="_blank" rel="noopener noreferrer"><Twitter></Twitter></a>
-                    <a href="#" target="_blank" rel="noopener noreferrer"><Discord></Discord></a>
+                    <a href="https://savagesgames.com/mint" target="_blank" rel="noopener noreferrer"><Globe></Globe></a>
+                    <a href="https://twitter.com/SavagesNFT" target="_blank" rel="noopener noreferrer"><Twitter></Twitter></a>
+                    <a href="https://discord.gg/Dp3Jt3ZJCE" target="_blank" rel="noopener noreferrer"><Discord></Discord></a>
                   </IconRow>
                 </InfoRow>
-                <CollectionDescription>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</CollectionDescription>
+                <CollectionDescription>Savages Unleashed is a collection of 50 unique gorilla NFTs that grant access to exclusive experiences with unique rewards..</CollectionDescription>
               </Content>
               <Other>
 
