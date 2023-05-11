@@ -1,19 +1,10 @@
 [
   {
-    "title": "OGs",
-    "description": "Only selected wallets can mint.",
-    "groups": [
-      {
-        "label": "OGs"
-      }
-    ]
-  },
-  {
-    "title": "Wl",
+    "title": "WL",
     "description": "Only users who are whitelisted can mint.",
     "groups": [
       {
-        "label": "Wl"
+        "label": "WL"
       }
     ]
   },
