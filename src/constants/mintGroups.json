@@ -9,8 +9,17 @@
     ]
   },
   {
+    "title": "WL2",
+    "description": "Only users who are whitelisted can mint.",
+    "groups": [
+      {
+        "label": "WL2"
+      }
+    ]
+  },
+  {
     "title": "Public",
-    "description": "Everyone can mint, no limit.",
+    "description": "Everyone can mint 2 per wallet",
     "groups": [
       {
         "label": "Public"

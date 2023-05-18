@@ -429,6 +429,10 @@ const candyMachinOps = {
       list: require("./constants/whitelist.json"),
       groupLabel: "WL",
     },
+    {
+      list: require("./constants/wl2.json"),
+      groupLabel: "WL2",
+    },
   ],
 };
 const Home = (props: HomeProps) => {
